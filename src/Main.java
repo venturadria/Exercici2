@@ -12,9 +12,8 @@ public class Main {
             numerointroduit[i] = llegir.nextInt();
         }
 
-        for (int i = 0; i < numerointroduit.length; i++) {
-            int valorordre = numerointroduit.length - 1 - i;
-            System.out.println(numerointroduit[valorordre]);
+        for (int i = numerointroduit.length - 1; i >= 0; i--) {
+            System.out.println(numerointroduit[i]);
         }
 
         for (int i = 0; i < numerointroduit.length; i++) {
